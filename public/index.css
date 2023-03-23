@@ -1,0 +1,310 @@
+body {
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.parent-body1 {
+  display: flex;
+  margin: 20px;
+}
+.lhs {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 20px;
+  float: left;
+  flex: 1;
+}
+.subtitle {
+  border-radius: 0%;
+  background-color: #3e424b;
+  border-top-left-radius: 500px;
+  border-top-right-radius: 500px;
+  border-bottom-right-radius: 500px;
+  border-bottom-left-radius: 500px;
+  padding: 15px 40px;
+  width: fit-content;
+  text-align: center;
+}
+.text-design {
+  display: flex;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2.5rem;
+  gap: 1.5rem;
+}
+.type1 {
+  color: transparent;
+  -webkit-text-stroke: 1px white;
+}
+
+.text-design h1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.lhs p {
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+}
+.counter {
+  display: flex;
+  flex-direction: row;
+}
+.counter-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  margin-left: 0;
+}
+.counter-child span:first-child {
+  font-size: 2rem;
+}
+.counter-child span:last-child {
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.btn-1 {
+  background-color: #ed820e;
+  color: white;
+  border: none;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.btn-2 {
+  border: 2px solid #ed820e;
+  padding: 12px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: transparent;
+  margin: 10px;
+  color: white;
+}
+.rhs {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  flex: 1;
+  float: right;
+}
+.join-now {
+  border: none;
+  z-index: 1;
+}
+.athlete-background {
+  width: 300px;
+  height: 600px;
+  background-color: #ed820e;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.heart-rate {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  width: fit-content;
+  background-color: #3e424b;
+  padding: 10px;
+  position: relative;
+  left: 520px;
+  top: 80px;
+}
+.heart-rate img,
+span {
+  padding: 10px;
+  padding-top: 2px;
+}
+.athlete {
+  position: relative;
+  left: 260px;
+  z-index: 1;
+}
+.calorie {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  width: fit-content;
+  background-color: #3e424b;
+  padding: 10px;
+  position: relative;
+  left: 200px;
+
+  z-index: 1;
+  bottom: 130px;
+}
+.join-now {
+  padding: 12px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: white;
+  font-weight: bold;
+  position: absolute;
+  right: 65px;
+  top: 15px;
+}
+
+/* Body2 */
+.parent-body2 {
+  padding: 40px;
+  padding-bottom: 60px;
+  margin-top: 0px;
+}
+.parent-body2 .text-design {
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin: 20px;
+}
+.parent-body2 .type2 {
+  margin: 0 40px;
+}
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-design {
+  background-color: #ed820e;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+
+  padding: 20px;
+  margin: 20px;
+  flex-wrap: wrap;
+  color: white;
+  border-radius: 10px;
+}
+.card-design p:nth-child(1) {
+  height: 30px;
+  width: 30px;
+}
+.card-design p:nth-child(2) {
+  font-size: 1.5rem;
+}
+.card-design p:nth-child(2) {
+  line-height: 1rem;
+  gap: 1rem;
+}
+.card-design .btn-1 {
+  padding-left: 0;
+  padding-top: 0;
+  text-align: left;
+}
+.card-design span:last-child {
+  padding-top: 20px;
+}
+.card-design {
+  display: flex;
+}
+.arrow {
+  position: relative;
+  top: 7px;
+}
+.card1-design {
+  background-color: #3e424b;
+  width: fit-content;
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  padding-right: 40px;
+  margin: 20px;
+  color: white;
+}
+.price-design {
+  display: flex;
+  margin: 20px;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+.card1-design li {
+  padding: 10px;
+}
+.card1-design h1 {
+  font-size: 3rem;
+}
+.card1-design div {
+  font-size: 3rem;
+}
+.join {
+  padding: 12px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: white;
+  font-weight: bold;
+  border: none;
+}
+.card1-design:hover {
+  background-color: #ed820e;
+  transform: scale(1.1);
+  box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.4);
+  z-index: 3;
+}
+.line {
+  height: 1px;
+  background-color: white;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 100px;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer span {
+  padding: 60px;
+}
+.sizing {
+  transform: scale(1.8);
+}
+.footer-parent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  margin: 30px;
+}
+.caro-decor {
+  line-height: 1rem;
+  display: flex;
+  letter-spacing: 2px;
+  word-break: break-all;
+}
+.caro-img {
+  z-index: 99;
+  position: absolute;
+  left: 60rem;
+  top: 90rem;
+}
+.lhs h3 {
+  color: #ed820e;
+}
+.lhs span {
+  color: white;
+}
+.frame1 {
+  height: 230px;
+  width: 200px;
+  border: 2px solid #ed820e;
+  position: absolute;
+  left: 62rem;
+  top: 91rem;
+}
+.frame2 {
+  height: 230px;
+  width: 200px;
+  background-color: #ed820e;
+  position: absolute;
+  left: 59rem;
+  top: 89rem;
+}
